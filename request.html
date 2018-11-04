@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+	<title>Like2Muv</title>
+	<link rel="shortcut icon" href=" assets/images/muvicon.jpg" type="image/gif" sizes="20x20" >
+
+
+	<!-- device compatability -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> <!-- disabling zoom function in viewport -->
+
+	<!-- IE compatability -->
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- link external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- fav icon -->
+	<link rel="icon" href="assets/images/favicon.jpg" type="image/gif" sizes="16x16">
+	
+	
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Quicksand|Titillium+Web:900" rel="stylesheet">
+
+</head>
+<body>
+
+	<article class="container-fluid px-0">		
+			
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top font-weight-bold">
+			<a class="navbar-brand" href="index.html"><img id="icon" src="assets/images/muvicon.jpg">Like2Muv</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="home.html">Home</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"> Services</a>
+						    <div id="character-dropdown" class="dropdown-menu">
+						        <a class="dropdown-item" href="hmoving.html">Home Moving Services</a>
+						        <a class="dropdown-item" href="corporate.html">Corporate Relocation</a>
+						        <a class="dropdown-item" href="storage.html">Moving and Storage</a>
+						        <a class="dropdown-item" href="auto.html">Auto Transport</a>
+						    </div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link active" href="request.html">Request</a>
+					</li>
+						
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="signup.html">Sign up</a>
+					</li>
+			
+					<li class="nav-item">
+						<a class="nav-link " data-toggle="modal" data-target="#login-modal" href="login.html">Log-in</a>
+					</li>
+
+				</ul>				
+			</div> <!-- end navbar items -->
+
+		</nav> <!-- end navbar -->
+
+			<!-- modal -->
+		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<h5 class="modal-title" id="exampleModalLabel">Log in</h5>
+	        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          				<span aria-hidden="true">&times;</span>
+	        			</button>
+	      			</div>
+	      			<div class="modal-body">
+	      				<label for="username">Username:</label>
+	      				<input id="username" type="name" name="username"> 
+	      				<br>
+	      				<label for="password"> Password :</label>
+	      				<input id="password" type="password" name="password">
+	      			</div>
+	      			<div class="modal-footer">
+	        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        			<button type="button" class="btn btn-success">Login</button>
+	      			</div>
+	    		</div>
+	  		</div>
+		</div>
+			<!-- end of modal -->
+			<!-- breadcrumb -->
+		<nav class="col-md-12 col-12 navbar-dark px-0" aria-label="breadcrumb">
+			<ol class="breadcrumb mb-0">
+    			<li class="breadcrumb-item pl-3" aria-current="page">Home</span></li>
+    			<li class="breadcrumb-item pl-3 active">Request</li>
+    			
+		</nav> <!-- end breadcrumb -->		
+
+
+		<article class="container-fluid askquote px-0">
+			
+			<h1 id="request-page" class="red text-uppercase font-weight-bold text-center mx-0">Get a quote for your request</h1>
+			<h6 class="text-left">Request your free quote by filling in the form below.</h6>
+
+			<form class="getquote text-center container-fluid mx-0 px-0">
+				<fieldset class="container-fluid">
+					
+					<div class="form-group linespace">
+						<h5 class="text-uppercase font-weight-bold text-left">Your details</h5>
+						<div class="form-group linespace row">
+							<input class="col-md-4 mx-2 form-control linespace" type="text" name="fname" placeholder="First Name *">
+							<input class="col-md-4 mx-2 form-control linespace" type="text" name="lname" placeholder="Last Name *">
+						</div>
+
+						<div class="form-group row">
+							<input class="col-md-4 mx-2 form-control linespace" type="email" name="email" placeholder="Email *">	
+							<input class="col-md-4 mx-2 form-control linespace" type="number" name="phone" placeholder="Phone *">
+						</div>
+
+						<div class="form-group row linespace">
+
+							<div class="col-md-4">
+								<h5 class="text-uppercase font-weight-bold text-left">Departure</h5>
+								<input class="form-control linespace" type="text" name="departure" placeholder="Pickup Address*">
+							</div>
+
+							<div class="col-md-4">
+								<h5 class="text-uppercase font-weight-bold text-left">Destination</h5>
+								<input class="form-control linespace" type="text" name="destination" placeholder="Destination Address*">
+							</div>
+						</div>
+
+					</div>	
+
+					<div class="form-group linespace">
+						<h5 class="text-uppercase font-weight-bold text-left">About Your Removals</h5>
+						<h6 class="font-weight-bold text-left">Date of Move:</h6>
+						<input class="form-control col-md-6 linespace" type="date" name="movingdate">
+
+						<div class="form-group linespace text-left">
+							<label for="professional-help" >Is this a Professional Transfer? </label>
+							<input type="radio" name="yes" id="professional-help">Yes
+							<input type="radio" name="no">No
+						</div>
+
+						<div class="form-group linespace text-left">
+							<label for="storage-need"> Will you need storage facilities?</label>
+							<input id="storage-need" type="radio" name="yes">Yes
+							<input type="radio" name="no"> No
+						</div>
+
+						<div class="form-group linespace text-left">
+							<label for="auto-move">	Will you move with your vehicle ?</label>
+							<input id="auto-move" type="radio" name="yes">Yes
+							<input type="radio" name="no">No
+						</div>
+						<div class="form-group linespace">
+							<textarea id="message" class="form-control linespace" placeholder="Comments.."></textarea>
+						</div>	<!-- end form group -->		
+						
+						<div class="form-check linespace">
+       						 <input class="form-check-inpu linespace"  type="checkbox" id="gridCheck1">
+       						 <label class="form-check-label linespace" for="gridCheck1"> I have read and accept the 
+       						 	<a href="#">Privacy Policy</a> for this site</label>
+     					</div>
+
+						<button class="btn btn-outline-success">Get a quote</button>
+
+						
+					</div>	
+				
+				</fieldset>
+			</form>
+
+		</article>
+
+			
+		
+
+		<footer class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-4 disclaimer footstamp"> 
+					<h6>Disclaimer:</h6>
+					<small>The images used for this site is for educational purposes only.</small>
+				</div>	
+				<hr>	
+				<div class="col-md-4 sitemap footstamp">
+					<h6>Sitemap:</h6>
+					<ul>
+						<li>
+							<a class="sites" href="home.html">Home</a>
+						</li>
+						<li class=" sites nav-item dropdown">
+							<a class="sites dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"> Services</a>
+					   		<div class="dropdown-menu">
+					    		<a class="dropdown-item active" href="hmoving.html">Home Moving</a>
+					    		<a class="dropdown-item" href="corporate.html">Corporate Relocation</a>
+				        		<a class="dropdown-item" href="storage.html">Moving and Storage</a>
+				        		<a class="dropdown-item" href="auto.html">Auto Transport</a>
+					   		</div>
+						</li>
+						<li>
+							<a class="sites" href="request.html">Request</a>
+						</li>					
+						<li>
+							<a class="sites" href="about.html">About</a>
+						</li>
+					</ul>
+				</div>
+				<hr>	
+				<div class="col-md-4 ferdz footstamp" >
+					<h6>Ferdinand de Leon &copy; 2018</h6>
+					<p class="mb-0"><small>Tuitt Coding Bootcamp</small></p>
+					<p class="mb-0"><small>Gmail: ferdinand.claveria.deleon@gmail.com</small></p>
+				</div>	
+			</div>
+		</footer> <!-- end of footer -->	
+
+	</article> <!-- end of page container -->
+
+
+		
+
+
+
+
+	<!-- jquery firts then popper then bootstrap js -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<!-- external bootstrap js -->
+	<script src ="assets/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,330 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*font-family: 'Crimson Text', serif;*/
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+#icon {
+	height: 50px;
+	width: 50px;
+	background-color: #f2f2f2;
+}
+
+.navbar {
+	background-image: url(../images/bannerbg.jpg);
+	font-weight: 900;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dropdown-menu {
+	background-image: url(../images/bannerbg.jpg);
+}
+
+.dropdown-item,
+.sites {
+	color: #f2f2f2;
+}
+
+a {
+	text-decoration: none; 
+}
+
+
+
+#jumbo-land {
+	background-color: rgba(157, 190, 187, 0.1);
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#jumbotron-section {
+	background-image: url(../images/move-bg2.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: soft-light;
+}
+
+.jumbotron {
+	color: #141414;
+	font-weight: bold;
+}
+
+.margintop{
+	margin-top: 200px;
+
+}
+
+.greeny {
+	color: #2f5e53;
+}
+
+
+#btn {
+	background-color: white;
+	width: 50%;
+	text-align: center;
+}
+
+.footer {
+	background-color: #141414;
+	color: #f2f2f2;
+	margin-top: 0;
+}
+
+/*modal*/
+.modal-header,
+.modal-footer {
+	background-image: url(../images/bannerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f2f2f2;
+}
+
+.close {
+	color: #f2f2f2;
+
+}
+
+
+/*end modal*/
+
+/*start home*/
+
+#welcome {
+
+	height: 500px;
+}
+
+.white {
+	background-color: #f2f2f2;
+	color: #141414;
+	width: 250px;
+	margin: 0 auto;
+	border-radius: 12px;
+	margin-top: 20px;
+}
+
+}
+
+#request {
+	border-radius: 12px;
+}
+
+#headnow {
+	background-image: url(../images/bannerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f2f2f2;
+
+}
+
+.card-img-top {
+	height: 150px;
+	width: 150px;
+}
+
+
+.card {
+	border: 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.small {
+	margin-top: 5px;
+	line-height: 0.5;
+}
+
+#guarantee {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*end home*/
+
+
+
+/*services */
+
+.red {
+	color: red;
+}
+
+.quotate {
+	height: 20px;
+	width: 20px;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.movers {
+	height: 500px;
+
+}
+
+.hmoving {
+	background-image: url(../images/bannerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f2f2f2;
+
+}
+
+
+/*end of services*/
+
+
+/*request*/
+
+.askquote {
+	background-image: url(../images/bannerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #f2f2f2;
+	margin-bottom: 0;
+	height: 100%;
+}
+
+.linespace {
+	margin-bottom: 20px;
+}
+
+.getquote,
+ {
+ 	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#request-page {
+	margin-bottom: 30px;
+}
+
+
+/*end request*/
+
+
+/*start about*/
+
+#mission {
+	margin: 50px;
+	color: #141414;
+}
+
+#vision {
+	background-image: url(../images/bannerbg.jpg);
+	color: #f2f2f2;
+	margin: 50px;
+}
+
+#form,
+.maps {
+	margin-top: 50px;
+}
+
+
+
+ /*end about*/
+
+
+
+
+/*start signup*/
+
+.text-center {
+	margin-bottom: 30px;
+}
+.fill-up {
+	margin-top: 50px;
+
+}
+
+.input-group {
+	margin:0 auto;
+	margin-bottom: 20px;
+
+}
+
+.input-group-prepend {
+	width: 50px;
+	text-align: center;
+}
+
+.signup-forms {
+	margin: 0 auto;
+	background-color: white;
+	width: 100%;
+}
+
+#signup-go {
+	margin:0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.footstamp {
+	margin-top: 30px;
+}
+
+
+/*end signup*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+} 
+
+
+/*mobile version*/
+@media only screen and (max-width: 400px) {
+
+	#btn {
+		width: 100%;
+	}
+	
+	#jumbotron-section{
+		background-image: url(../images/movebgmobile.jpg);
+		background-size: cover;
+	}
+
+	#welcome {
+		height: 200px;
+	}
+}
+
+
+

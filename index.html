@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+	<title>Like2Muv</title>
+	<link rel="shortcut icon" href=" assets/images/muvicon.jpg" type="image/gif" sizes="20x20" >
+
+
+	<!-- device compatability -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> <!-- disabling zoom function in viewport -->
+
+	<!-- IE compatability -->
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- link external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- fav icon -->
+	<link rel="icon" href="assets/images/favicon.jpg" type="image/gif" sizes="16x16">
+	
+	
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Quicksand|Titillium+Web:900" rel="stylesheet">
+
+</head>
+<body>
+
+	<article class="container-fluid px-0">		
+			
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top font-weight-bold">
+			<a class="navbar-brand" href="home.html"><img id="icon" src="assets/images/muvicon.jpg">Like2Muv</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link active" href="home.html">Home</a>
+					</li>
+
+					<li class="nav-item dropdown">
+						 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"> Services</a>
+						    <div id="character-dropdown" class="dropdown-menu">
+						        <a class="dropdown-item" href="hmoving.html">Home Moving Services</a>
+						        <a class="dropdown-item" href="corporate.html">Corporate Relocation</a>
+						        <a class="dropdown-item" href="storage.html">Moving and Storage</a>
+						        <a class="dropdown-item" href="auto.html">Auto Transport</a>
+						    </div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+						
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="signup.html">Sign up</a>
+					</li>
+			
+					<li class="nav-item">
+						<a class="nav-link " data-toggle="modal" data-target="#login-modal" href="login.html">Log-in</a>
+					</li>
+
+				</ul>				
+			</div> <!-- end navbar items -->
+
+		</nav> <!-- end navbar -->
+
+			<!-- modal -->
+		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<h5 class="modal-title" id="exampleModalLabel">Log in</h5>
+	        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          				<span aria-hidden="true">&times;</span>
+	        			</button>
+	      			</div>
+	      			<div class="modal-body">
+	      				<label for="username">Username:</label>
+	      				<input id="username" type="name" name="username"> 
+	      				<br>
+	      				<label for="password"> Password :</label>
+	      				<input id="password" type="password" name="password">
+	      			</div>
+	      			<div class="modal-footer">
+	        			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        			<button type="button" class="btn btn-success">Login</button>
+	      			</div>
+	    		</div>
+	  		</div>
+		</div>
+			<!-- end of modal -->
+
+			
+		<section id="jumbotron-section">
+			<div id="jumbo-land" class="jumbotron col-md-6 col-12">
+				<div class="container-fluid margintop">
+					<h1 class="font-weight-bold greeny ">Go Places</h1>
+					<h2 class="lead font-weight-bold greeny">We are the most convenient moving company in the Philippines</h2>
+					<button id="btn" class="btn btn-lg col-12">
+						<a class="btn-outline-success" href="home.html">Get to 	know more</a>
+					</button>
+				</div> <!-- end container -->
+			</div> <!-- end jumbo -->
+		</section>
+
+		<footer class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-4 disclaimer footstamp"> 
+					<h6>Disclaimer:</h6>
+					<small>The images used for this site is for educational purposes only.</small>
+				</div>	
+				<hr>	
+				<div class="col-md-4 sitemap footstamp">
+					<h6>Sitemap:</h6>
+					<ul>
+						<li>
+							<a class="sites" href="home.html">Home</a>
+						</li>
+						<li class=" sites nav-item dropdown">
+							<a class="sites dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"> Services</a>
+					   		<div class="dropdown-menu">
+					    		<a class="dropdown-item active" href="hmoving.html">Home Moving</a>
+					    		<a class="dropdown-item" href="corporate.html">Corporate Relocation</a>
+				        		<a class="dropdown-item" href="storage.html">Moving and Storage</a>
+				        		<a class="dropdown-item" href="auto.html">Auto Transport</a>
+					   		</div>
+						</li>
+						<li>
+							<a class="sites" href="gallery.html">Gallery</a>
+						</li>					
+						<li>
+							<a class="sites" href="about.html">About</a>
+						</li>
+					</ul>
+				</div>
+				<hr>	
+				<div class="col-md-4 ferdz footstamp" >
+					<h6>Ferdinand de Leon &copy; 2018</h6>
+					<p class="mb-0"><small>Tuitt Coding Bootcamp</small></p>
+					<p class="mb-0"><small>Gmail: ferdinand.claveria.deleon@gmail.com</small></p>
+				</div>	
+			</div>
+		</footer> <!-- end of footer -->	
+
+	</article> <!-- end of page container -->
+
+
+		
+
+
+
+
+	<!-- jquery firts then popper then bootstrap js -->
+	<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<!-- external bootstrap js -->
+	<script src ="assets/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+</html>
